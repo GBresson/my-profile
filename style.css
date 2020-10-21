@@ -1,0 +1,99 @@
+body {
+  background-color: #FFFFFF;
+  color: #FFCCBC; 
+  font-family: 'Crimson Text', serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #00887A;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Crimson Text', serif;
+  color: #00887A;
+  font-weight: bold;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+p {
+	text-justify: justify;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 800px;
+	margin: 80px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.image-circle {
+	border-radius: 10%;
+}
+
+.btn-blue {
+	background-color: #FFCCBC;
+	color: #FFFFFF;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	color: #00887A;
+}	
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #FFCCBC;
+}
+
+.list-inline i:hover {
+	color: #00887A;
+}
+
+/* Custom design with class */
+
+#introduction p {
+	margin-bottom: 40px;
+}
